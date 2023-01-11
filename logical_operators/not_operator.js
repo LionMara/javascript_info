@@ -21,3 +21,5 @@ console.log('Example');
 
 console.log(!!'Non-empty-string'); // true
 console.log(!!null); // false
+
+// NOT has highest precedence,and it will always evaluate first
