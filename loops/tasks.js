@@ -5,10 +5,9 @@
 let i = 3;
 
 while (i) {
-    console.log(i--); // 3, 2, 1
+  console.log(i--); // 3, 2, 1
 } // last value is 1 as 0 becomes false
 console.log('\n');
-
 
 // Which values does the while loop show?
 // For every loop iteration, write down which value it outputs
@@ -16,11 +15,11 @@ console.log('\n');
 // 1 prefix '++1'
 console.log('prefix');
 i = 0;
-while (++i < 5) console.log(i); //1, 2, 3, 4
+while (++i < 5) console.log(i); // 1, 2, 3, 4
 console.log('\n');
 // 2 postfix i++
 
-console.log('postfix')
+console.log('postfix');
 i = 0;
 while (i++ < 5) console.log(i); // 1, 2, 3, 4
 console.log('\n');
@@ -29,11 +28,11 @@ console.log('\n');
 
 console.log('outputting even nos');
 for (i = 2; i <= 10; i++) {
-    if (i % 2 == 0) {
-	console.log(i);
-    }else {
-	continue;
-    }
+  if (i % 2 == 0) {
+    console.log(i);
+  } else {
+    continue;
+  }
 }
 
 /*
@@ -47,5 +46,5 @@ or cancels the input/enters an empty line.
 let num;
 
 do {
-    num = prompt('Enter a number greater than 100', '');
+  num = prompt('Enter a number greater than 100', '');
 } while (num <= 100 && num);
